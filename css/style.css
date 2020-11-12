@@ -92,6 +92,34 @@ img {
 	gap: 30px;
 }
 
+/* form  */
+.showcase-form {
+	position: relative;
+	top: 60px;
+	height: 350px;
+	width: 400px;
+	padding: 40px;
+	z-index: 100;
+	justify-self: flex-end;
+}
+
+.showcase-form .form-control {
+	margin: 30px 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+	border: 0;
+	border-bottom: 1px solid #b4becb;
+	width: 100%;
+	padding: 3px;
+	font-size: 16px;
+}
+
+.showcase-form input:focus {
+	outline: none;
+}
+
 /* Utilities  */
 .container {
 	max-width: 1100px;
@@ -114,4 +142,13 @@ img {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+}
+
+.card {
+	background-color: #fff;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 10px;
 }
